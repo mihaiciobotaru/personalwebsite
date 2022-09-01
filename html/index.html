@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="I am a software engineer currently studying at University Alexandru Ioan Cuza, Computer Science from Iasi, Romania. I am looking forward to learn more about software and hardware and I am open to freelance projects and job offers."/>
+        <meta name="robots" content="index,follow">
+        <meta name="keywords" content="mihai ciobotaru,mihai,ciobotaru,software,website,site,student,freelance,freelancer,creare website,creare site,software engineer,focsani,iasi,vrancea,create website,create site"/>
+        <meta property="og:audio" content="https://example.com/bond/theme.mp3" />
+        <meta property="og:description" content="I am a software engineer currently studying at University Alexandru Ioan Cuza, Computer Science from Iasi, Romania. I am looking forward to learn more about software and hardware and I am open to freelance projects and job offers." />
+        <meta property="og:determiner" content="Mihai Ciobotaru" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale:alternate" content="ro_RO" />
+        <meta property="og:site_name" content="Mihai Ciobotaru" />
+        <link rel="canonical" href="http://www.mihaiciobotaru.com/" />
+        <meta name="twitter:description" content="I am a software engineer currently studying at University Alexandru Ioan Cuza, Computer Science from Iasi, Romania. I am looking forward to learn more about software and hardware and I am open to freelance projects and job offers.">
+        <meta name="twitter:title" content="Mihai Ciobotaru. Software Engineer">
+        <title>Mihai Ciobotaru</title>
+
+        <link rel="stylesheet" href="../css/output.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/general.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+        <link rel="manifest" href="../assets/site.webmanifest">
+
+       
+
+        <script src="https://kit.fontawesome.com/2aa330ccb7.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="width: 100vw; overflow: none;">
+        <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+        <script type="importmap">
+			{
+				"imports": {
+					"three": "../js/three.module.js"
+				}
+			}
+		</script>
+        <nav class="text-black-shadow-md absolute py-4 w-full backdrop-blur-md backdrop-brightness-10 bg-black bg-opacity-20  z-50" style="border-bottom-right-radius: 200px; top: 0px; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.6);">
+            <div class="container flex flex-wrap justify-between lg:justify-evenly px-8 items-center mx-auto">  
+                <a href="./home" class="flex items-center">
+                    <span class="text-black-shadow-lg self-center text-xl font-semibold whitespace-nowrap text-white" style="font-family: 'Encode Sans Semi Condensed', sans-serif; letter-spacing:2px;">Mihai Ciobotaru</span>
+                </a>
+                <div class="flex lg:order-2">
+                    <a href="./contact" class="text-rose-shadow-sm hidden lg:block text-black focus:ring-blue-300 bg-gradient-to-br from-stone-400 to-stone-100 bg-opacity-20 hover:scale-105 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 lg:mr-0 " style="filter: drop-shadow(4px 4px 4px #8128aabb) drop-shadow(3px 3px 8px #000000aa);">Contact</a>
+                    <button id="navbar-button" data-collapse-toggle="mobile-menu-4" type="button" class="lg:hidden inline-flex items-center p-2 text-sm bg-gradient-to-br from-stone-400 to-stone-100 rounded-2xl" aria-controls="mobile-menu-4" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg id="navbar-button-open" class="w-6 h-6" aria-hidden="true" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg id="navbar-button-close" class="hidden w-6 h-6" aria-hidden="true" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+                <div id="mega-menu-full" class="text-black-shadow-lg hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-4">
+                    <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium">
+                      <li>
+                          <a href="./home" class="navbar-link" aria-current="page"><h4>Home</h4></a>
+                      </li>
+                      <li>
+                          <a href="./about" class="navbar-link"><h4>About me</h4></a>
+                      </li>
+                      <li>
+                          <a href="./portfolio" class="navbar-link"><h4>Portfolio</h4></a>
+                      </li>
+                      <li>
+                          <a href="./hire-me" class="navbar-link"><h4>Hire me</h4></a>
+                      </li>
+                      <li>
+                          <a href="./contact" class="lg:hidden navbar-link"><h4>Contact</h4></a>
+                      </li>
+                      <li>
+                          <button id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown" class="navbar-link text-black-shadow-lg flex lg:flex lg:justify-between lg:items-center lg:w-full font-medium"><h4>Blog</h4> <svg class="ml-1 mt-1 w-4 h-4 svg-black-shadow" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                      </li>
+                    </ul>
+                </div>
+            </div>     
+            <div id="mega-menu-full-dropdown" class="hidden mt-1 border-t-2 border-black border-opacity-20">
+                <div class="grid py-5 px-4 mx-auto max-w-screen-xl text-gray-900 dark:text-white lg:grid-cols-2 xl:grid-cols-3 lg:px-6">
+                    <ul>
+                        <li>
+                            <a href="./in-works" class="block p-3 rounded-lg  ">
+                                <div class="font-semibold text-white"><h4>PHP</h4></div>
+                                <span class="text-sm font-light text-gray-300"><h5>Read articles about PHP.</h5></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="./in-works" class="block p-3 rounded-lg">
+                                <div class="font-semibold text-white"><h4>JAVA</h4></div>
+                                <span class="text-sm font-light text-gray-300 "><h5>Read articles about Java.</h5></span>
+                            </a>
+                        </li>
+             
+                    </ul>
+                    <ul class="">
+                        <li>
+                            <a href="./in-works" class="block p-3 rounded-lg  ">
+                                <div class="font-semibold text-white"><h4>CSS</h4></div>
+                                <span class="text-sm font-light text-gray-300 "><h5>Read articles about CSS.</h5></span>
+                            </a>
+                        </li>
+                     
+                    </ul>
+                </div>
+            </div>       
+        </nav>
+
+        <div id="page-content">
+
+             <section id="banner" class="overflow-hidden">
+                <div class="bg-overlay-image-layeredwave3 bg-overlay" style="opacity:1; z-index: -2; "></div>
+                
+                <div class="z-30" style="z-index: 30;">
+                    <div class="flex flex-col lg:flex-row justify-evenly w-full items-center px-4 z-30 -mb-28  mt-20 lg:mt-0 lg:ml-20" style="height: 100vh; z-index: 30;">
+                        <div class="flex-auto text-white  text-black-shadow-lg antialiased  mt-14 lg:mt-0 lg:mb-0" >
+                            <h6 class="uppercase -mb-10  text-sm underline decoration-slate-200 underline-offset-4 decoration-2" style="z-index: 300;">software engineer</h6>
+                            <h1 class="capitalize mt-12 mb-1 text-2xl sm:text-4xl md:mb-2 md:text-6xl ">mihai ciobotaru</h1>
+                            <p class="text-sm sm:text-base mb-10 md:mb-16">A well-written code is like a good story.</p>
+                            <a href="./portfolio" class=" text-rose-shadow-sm text-slate-900 focus:ring-blue-300 bg-gradient-to-br from-stone-300 via-violet-300 to-stone-100 bg-opacity-20 font-medium rounded-lg text-sm px-4 w-fit md:px-5 py-2.5 text-center mr-3 lg:mr-0 hover:from-stone-200  hover:to-violet-800" style="font-size: 18px; font-weight: 400; filter: drop-shadow(3px 3px 7px #8128aaff) drop-shadow(4px 4px 9px #000000ee);">Take a look<i class=" ml-2 fa-solid fa-angle-right"></i></a>
+                        </div>
+                        <div id="computer-animation" class="flex-auto flex justify-center items-center -mt-44 lg:mt-0 " > 
+                            <div id="computer-animation-wrapper" class="bg-transparent w-96 h-64 absolute "></div> 
+                            <script type="module" src="../js/monitortilting.js"></script>
+                        </div>
+                    </div>
+                </div>
+              
+       
+
+            </section>
+
+            <section id="section2" class="-z-30 flex justify-center items-center" >
+
+                <div class="py-20 sm:px-14 md:py-40 flex items-center justify-evenly ">
+                    <div class="flex flex-col md:flex-row items-center w-fit" >
+                        <img src="../assets/profile-pic.png" class="tilt-effect" style="width: 15rem;filter: drop-shadow(4px 4px 10px #1d24b977) drop-shadow(4px 4px 10px #00000045);" alt="">
+                        <div id="home-card" class="md:ml-12 px-5 py-5 bg-overlay-image-gradient2 rounded-2xl text-slate-300  mt-6 lg:mt-0 shadow-md shadow-black tilt-effect" >
+                            <h2 class=" pb-5 text-2xl sm:text-4xl text-slate-200 text-black-shadow-lg">About me.</h2>
+                            <p class="text-black-shadow-md text-sm sm:text-base text-slate-300">I am a software engineer currently studying at University Alexandru Ioan Cuza, Computer Science from Iasi, Romania. I am looking forward to learning more about software and hardware and I am open to freelance projects and job offers.</p>
+                            <a href="./about" class="mt-7 block text-rose-shadow-sm text-slate-900 focus:ring-blue-300 bg-gradient-to-br bg-opacity-20 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 lg:mr-0 from-stone-200 to-violet-800" style="font-size: 16px; font-weight: 600;">Read more.<i class="ml-2 fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+      
+            
+        </div>
+        <footer class="bg-overlay-image-gradient2 w-screen flex justify-center items-center flex-row" style="height:50px">
+            <p  class="text-slate-200 text-center">Copyright <span style="font-family: 'Encode Sans Semi Condensed', sans-serif;">©</span> 2022 Mihai Ciobotaru. All Rights Reserved.</p>
+        </footer>
+        <script  src="../js/navbar.js"></script>
+        <script  src="../js/tilt-effect.js"></script>
+        <script  src="../js/mobile-remove-tilt.js"></script>
+    </body>
+</html>

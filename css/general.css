@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Space+Mono&family=Ubuntu:wght@300&family=Encode+Sans+Semi+Condensed:wght@300&display=swap');*
+
+
+
+
+*{
+    font-family: 'Space Mono', monospace;
+}
+
+/*
+//
+// GENERAL CLASSES
+//
+*/
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg{
+    background-color: red;
+}
+
+/*
+//
+// GENERAL STYLE
+//
+*/
+
+
+body{
+  
+}
+
+/*
+//
+// NAVBAR
+//
+*/ 
+
+#header{
+    border-bottom-right-radius: 300px;
+    color: #111;
+    padding: 2vh 12vw;
+}
+
+#header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+#header-logo img{
+    width: 70px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+#header ul{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+#header ul li{
+    display: inline;
+    margin: 0 1vw;
+}
+
+.small-header{
+    display: none;
+}
+
+/*
+//
+// BANNER SECTION
+//
+*/ 
+
+
+
+.full-screen-asset{
+  /* The image used */
+  background-image: url(../assets/topographicmap1.png);
+
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.bg-overlay-image-stackedwave{
+    background-image: url(../assets/stackedwave.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-overlay-image-stackedwave2{
+    background-image: url(../assets/stackedwave2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-overlay-image-stackedwave3{
+    background-image: url(../assets/stackedwave3.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-overlay-image-stackedwave4{
+    background-image: url(../assets/stackedwave4.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-overlay-image-stackedwave5{
+    background-image: url(../assets/stackedwave5.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-overlay-image-stackedwave6{
+    background-image: url(../assets/stackedwave6.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-overlay-image-layeredwave{
+    background-image: url(../assets/layeredwave.svg);
+}
+
+
+.bg-overlay-image-blob{
+    background-image: url(../assets/blob.svg);
+}
+
+.bg-overlay-image-layeredwave2{
+    background-image: url(../assets/layeredwave2.svg);
+}
+
+.bg-overlay-image-layeredwave3{
+    background-image: url(../assets/layeredwave3.svg);
+}
+
+.bg-overlay-image-layeredwave4{
+    background-image: url(../assets/layeredwave4.svg);
+}
+
+.bg-overlay-image-layeredwave5{
+    background-image: url(../assets/layeredwave5.svg);
+}
+
+.bg-overlay-image-layeredwave6{
+    background-image: url(../assets/layeredwave6.svg);
+}
+
+
+.bg-overlay-image-gradient{
+    background-image: url(../assets/blurry-gradient-haikei.png);
+}
+
+.bg-overlay-image-gradient2{
+    background-image: url(../assets/blurry-gradient-haikei2.png);
+}
+
+.bg-overlay-image-geoterrain{
+    background-image: url(../assets/17.png);
+}
+
+.bg-overlay {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 105%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.text-black-shadow-lg{
+    text-shadow: #000000 2px -1px 5px, #000000 2px -1px 7px,#000000 2px -2px 2px,#000000 2px -1px 10px;
+}
+
+.text-black-shadow-md{
+    text-shadow: #00000077 2px -1px 5px, #00000077 2px -1px 7px,#00000077 2px -2px 2px,#00000077 2px -1px 10px;
+}
+
+.text-black-shadow-sm{
+    text-shadow: #00000033 2px -1px 5px, #00000033 2px -1px 7px,#00000033 2px -2px 2px,#00000033 2px -1px 10px;
+}
+
+.text-rose-shadow-sm{
+    text-shadow: #ffffff33 2px -1px 5px, #ffffff33 2px -1px 7px,#ffffff33 2px -2px 2px,#ffffff33 2px -1px 10px;
+}
+
+.text-article-shadow-sm{
+    text-shadow: #00000005 2px -1px 5px, #00000005 2px -1px 7px,#00000005 2px -2px 2px,#00000005 2px -1px 10px,
+                 #1d24b913 2px -3px 10px, #1d24b913 2px -3px 12px,#1d24b913 2px -4px 2px,#1d24b913 2px -3px 15px ;
+}
+
+
+
+.svg-black-shadow{
+    filter: drop-shadow(0px 0px 5px #000000dd) drop-shadow(0px 0px 7px #000000dd) drop-shadow(0px 0px 4px #000000dd) drop-shadow(0px 0px 10px #000000dd);
+
+}
+
+.shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    z-index: -1;
+}
+
+.shape{
+    z-index: 1100;
+    bottom: -5%;
+    left: 0%;
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.shape svg {
+
+    width: -webkit-calc(100% + 1.3px);
+    width: calc(100% + 1.3px);
+
+    width: calc(135% + 1.3px);
+    height: 100px;
+
+    fill: #ccc;
+    background-color: transparent;
+}
+
+
+body{
+    background-color: #ccc;
+}
+
+.bg-overlay-image-layeredwave{
+    height: 110vh;
+    transform: scaleY(90%);
+    margin-top: -10vh;
+}
+
+
+.bg-overlay-image-layeredwave-article{
+    background-image: url(../assets/layeredwave.svg);
+    height: 110vh;
+    transform: scaleY(60%);
+    margin-top: -30vh;  
+}
+
+.bg-overlay-image-layeredwave-article2{
+    background-image: url(../assets/layeredwave2.svg);
+    height: 110vh;
+    transform: scaleY(60%);
+    margin-top: -30vh;  
+}
+
+.bg-overlay-image-layeredwave-article3{
+    background-image: url(../assets/layeredwave3.svg);
+    height: 110vh;
+    transform: scaleY(60%);
+    margin-top: -30vh;  
+}
+
+.bg-overlay-image-layeredwave-article4{
+    background-image: url(../assets/layeredwave4.svg);
+    height: 110vh;
+    transform: scaleY(60%);
+    margin-top: -30vh;  
+}
+
+.bg-overlay-image-layeredwave-article5{
+    background-image: url(../assets/layeredwave5.svg);
+    height: 110vh;
+    transform: scaleY(60%);
+    margin-top: -30vh;  
+}
+
+.bg-overlay-image-layeredwave-article6{
+    background-image: url(../assets/layeredwave6.svg);
+    height: 110vh;
+    transform: scaleY(60%);
+    margin-top: -30vh;  
+}
+
+#article-content{
+    border-right: 2px #000 solid;
+}
+
+#languages-grid  i, #contact i{
+    font-size: calc(2vw + 8vh);
+}
+
+.about-banner-section{
+    height: 90vh;
+}
+@media (max-width: 1024px){
+
+    .about-banner-section{
+        height: 100vh;
+        margin-bottom: -4rem;
+    }
+    #computer-animation{
+
+    }
+
+    .bg-overlay-image-layeredwave{
+        height: 180vh;
+    }
+    .bg-overlay-image-layeredwave-article{
+        height: 90vh;
+        transform: scaleY(60%);
+        margin-top: -20vh;  
+    } 
+    .bg-overlay-image-layeredwave-article2{
+        height: 90vh;
+        transform: scaleY(60%);
+        margin-top: -20vh;  
+    }
+    
+    .bg-overlay-image-layeredwave-article3{
+        height: 90vh;
+        transform: scaleY(60%);
+        margin-top: -20vh;  
+    }
+
+    .bg-overlay-image-layeredwave-article4{
+        height: 90vh;
+        transform: scaleY(60%);
+        margin-top: -20vh;  
+    }
+
+    .bg-overlay-image-layeredwave-article5{
+        height: 90vh;
+        transform: scaleY(60%);
+        margin-top: -20vh;  
+    }
+
+    .bg-overlay-image-layeredwave-article6{
+        height: 90vh;
+        transform: scaleY(60%);
+        margin-top: -20vh;  
+    }
+    #article-content{
+        border: 0;
+    }
+    #profile{
+        margin-top: 4rem;
+        padding-top: 1rem;
+        border-top: 2px #000 solid;
+
+    }
+    #profile img{
+        margin-left: 25%;
+        width: 50%;
+    }
+
+}
+
+
+
+
+.gradient-background{
+    background: rgb(129,40,170);
+    background: -moz-linear-gradient(162deg, rgba(129,40,170,1) 0%, rgba(0,6,121,1) 50%, rgba(120,107,255,1) 100%);
+    background: -webkit-linear-gradient(162deg, rgba(129,40,170,1) 0%, rgba(0,6,121,1) 50%, rgba(120,107,255,1) 100%);
+    background: linear-gradient(162deg, rgba(129,40,170,1) 0%, rgba(0,6,121,1) 50%, rgba(120,107,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8128aa",endColorstr="#786bff",GradientType=1);
+}
+
+.gradient-background2{
+    background: rgb(150,57,193);
+    background: -moz-linear-gradient(16deg, rgba(150,57,193,1) 6%, rgba(1,6,107,1) 56%, rgba(102,87,255,1) 97%);
+    background: -webkit-linear-gradient(16deg, rgba(150,57,193,1) 6%, rgba(1,6,107,1) 56%, rgba(102,87,255,1) 97%);
+    background: linear-gradient(16deg, rgba(150,57,193,1) 6%, rgba(1,6,107,1) 56%, rgba(102,87,255,1) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9639c1",endColorstr="#6657ff",GradientType=1);
+}
+
+.gradient-background3{
+    background: rgb(141,51,182);
+    background: -moz-linear-gradient(228deg, rgba(141,51,182,1) 6%, rgba(11,16,120,1) 56%, rgba(104,91,233,1) 97%);
+    background: -webkit-linear-gradient(228deg, rgba(141,51,182,1) 6%, rgba(11,16,120,1) 56%, rgba(104,91,233,1) 97%);
+    background: linear-gradient(228deg, rgba(141,51,182,1) 6%, rgba(11,16,120,1) 56%, rgba(104,91,233,1) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8d33b6",endColorstr="#685be9",GradientType=1);
+}
+
+.gradient-background4{
+    background: rgb(163,65,208);
+    background: -moz-linear-gradient(324deg, rgba(163,65,208,1) 0%, rgba(19,24,125,1) 49%, rgba(88,73,237,1) 91%);
+    background: -webkit-linear-gradient(324deg, rgba(163,65,208,1) 0%, rgba(19,24,125,1) 49%, rgba(88,73,237,1) 91%);
+    background: linear-gradient(324deg, rgba(163,65,208,1) 0%, rgba(19,24,125,1) 49%, rgba(88,73,237,1) 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a341d0",endColorstr="#5849ed",GradientType=1);
+}
+.gradient-background5{
+    background: rgb(156,42,208);
+    background: -moz-linear-gradient(145deg, rgba(156,42,208,1) 9%, rgba(0,6,121,1) 52%, rgba(80,63,242,1) 91%);
+    background: -webkit-linear-gradient(145deg, rgba(156,42,208,1) 9%, rgba(0,6,121,1) 52%, rgba(80,63,242,1) 91%);
+    background: linear-gradient(145deg, rgba(156,42,208,1) 9%, rgba(0,6,121,1) 52%, rgba(80,63,242,1) 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9c2ad0",endColorstr="#503ff2",GradientType=1);
+}
+
+
+form{
+    background-color: #aaa; 
+    padding: 2rem 3rem;
+}
+
+form textarea, form input{
+    color:#000;
+    background-color: #ccc;
+    border: 1px solid #000679;
+    border-radius: 7px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #000232;
+}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(151,32,205);
+    background: -moz-linear-gradient(180deg, rgba(151,32,205,1) 4%, rgba(16,24,180,1) 52%);
+    background: -webkit-linear-gradient(180deg, rgba(151,32,205,1) 4%, rgba(16,24,180,1) 52%);
+    background: linear-gradient(180deg, rgba(151,32,205,1) 4%, rgba(16,24,180,1) 52%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9720cd",endColorstr="#1018b4",GradientType=1); }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(159,66,203);
+    background: -moz-linear-gradient(180deg, rgba(159,66,203,1) 4%, rgba(29,36,185,1) 52%);
+    background: -webkit-linear-gradient(180deg, rgba(159,66,203,1) 4%, rgba(29,36,185,1) 52%);
+    background: linear-gradient(180deg, rgba(159,66,203,1) 4%, rgba(29,36,185,1) 52%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9f42cb",endColorstr="#1d24b9",GradientType=1);
+
+}
+
+body{
+    overflow-x: none;
+}
+
+@font-face {
+    font-family: Univa;
+    src: url(../assets/fonts/univa-nova-minimalist-typeface-with-clean-design-2021-09-02-13-20-48-utc/Web\ Fonts/UnivaNova-Regular.woff2);  
+}
+
+  #article-content *:not(h1){
+    font-family: Univa;
+  }
+
+  #home-card{
+    max-width: 500px;
+  }
+
+  @media (max-width: 640px){
+
+    #home-card{
+        max-width: 300px;
+    }
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
